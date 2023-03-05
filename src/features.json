@@ -1,0 +1,31 @@
+[
+    {
+        "icon": "features/android",
+        "name": "Up-to-date",
+        "disc": "Frequent updates with the latest monthly Security Patch"
+    }, {
+        "icon": "features/settings",
+        "name": "Customizations",
+        "disc": "A wide range of useful features & settings to customize your device"
+    }, {
+        "icon": "features/speedometer",
+        "name": "Stability",
+        "disc": "Fluid and stable with optimal battery life and performance"
+    }, {
+        "icon": "features/palette",
+        "name": "Material Design UI",
+        "disc": "Clean and refined UI inspired by Google Pixel"
+    }, {
+        "icon": "features/support",
+        "name": "Support",
+        "disc": "Active support for the ROM is provided on Telegram and XDA"
+    }, {
+        "icon": "features/code",
+        "name": "Open Source",
+        "disc": "Source code of the ROM is available on our GitHub"
+    }, {
+        "icon": "features/update",
+        "name": "OTA",
+        "disc": "Monthly Over The Air Updates for a hassle free experience"
+    }
+]
