@@ -68,11 +68,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js" integrity="sha512-/DXTXr6nQodMUiq+IUJYCt2PPOUjrHJ9wFrqpJ3XkgPNOZVfMok7cRw6CSxyCQxXn6ozlESsSh1/sMCTF1rL/g==" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.5.3/umd/popper.min.js" integrity="sha512-53CQcu9ciJDlqhK7UD8dZZ+TF2PFGZrOngEYM/8qucuQba+a+BXOIRsp9PoMNJI3ZeLMVNIxIfZLbG/CdHI5PA==" crossorigin="anonymous"></script>
 <script>
-    window.onbeforeunload = function() {
-        document.querySelector('.preloader').style.display = "block"
-    }
-</script>
-<script>
     setTimeout(function() {
         $('.collapse').on('shown.bs.collapse', function() {
             $(this).parent().find(".fa-plus-square").removeClass("fa-plus-square").addClass("fa-minus-square");
