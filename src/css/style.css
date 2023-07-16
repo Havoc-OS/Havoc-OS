@@ -1,7 +1,7 @@
 * {
     outline: 0 !important;
     text-decoration: none;
-    font-family: google-sans
+    font-family: google-sans, serif
 }
 
 @font-face {
@@ -13,15 +13,15 @@
 @font-face {
     font-family: google-sans-medium;
     src: url(GoogleSans-Medium.ttf);
-    font-weight: medium
+    font-weight: 500
 }
 
 .font-regular {
-    font-family: google-sans
+    font-family: google-sans, serif
 }
 
 .font-medium {
-    font-family: google-sans-medium
+    font-family: google-sans-medium, serif
 }
 
 body {
@@ -31,7 +31,7 @@ body {
 body,
 html {
     margin: 0;
-    font-family: google-sans;
+    font-family: google-sans, serif;
     height: auto;
     overflow-x: hidden
 }
@@ -59,7 +59,7 @@ html {
 
 .filled-btn {
     font-size: 14px;
-    font-family: google-sans-medium;
+    font-family: google-sans-medium, serif;
     background: #1a73e8;
     color: #fff;
     border-radius: 99px
@@ -93,7 +93,7 @@ html {
     max-width: none
 }
 
-@media only screen and (max-width:969px) {
+@media only screen and (max-width: 969px) {
     #team-grid {
         grid-template-areas: "a a" "b b"
     }
@@ -188,7 +188,7 @@ html {
     border-radius: 8px !important
 }
 
-@media only screen and (max-width:991px) {
+@media only screen and (max-width: 991px) {
     .swiper-container {
         width: 100%
     }
